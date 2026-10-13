@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: jd2resume
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
+      - key: NODE_ENV
+        value: production
+      - key: MAX_UPLOAD_MB
+        value: "8"
+      - key: TRUST_PROXY
+        value: "1"
+      - key: GEMINI_API_KEY
+        value: ""
+      - key: OLLAMA_MODEL
+        value: ""

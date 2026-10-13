@@ -1,0 +1,36 @@
+[
+  {
+    "case": "fresher",
+    "experienceLevel": "fresher",
+    "resume": "Maya Chen | maya@example.com | Austin, TX\nBSc Computer Science, Hillcrest University, 2025\nSkills: Python, JavaScript, React, Git\nProject: Campus Events. Built a React app that lists events from a JSON file. Added category filters.\nCertification: Python Essentials, OpenLearn, 2024",
+    "jobDescription": "Junior Frontend Developer — Brightside, Austin. Build accessible web interfaces in React and TypeScript. Required: JavaScript, React, TypeScript, CSS. Preferred: REST APIs. Collaborate with design and product.",
+    "expectedChecks": [
+      "Keep name, email, location, degree, institution, graduation year, and certification unchanged.",
+      "Do not add TypeScript, CSS, or REST APIs to resume skills because the source does not confirm them.",
+      "Keep the existing Campus Events project; project ideas must be labeled as future suggestions.",
+      "Use fresher mode and show a one-page-friendly resume."
+    ]
+  },
+  {
+    "case": "experienced",
+    "experienceLevel": "experienced",
+    "resume": "Jordan Patel | jordan@example.com | Seattle, WA | linkedin.com/in/jordanpatel\nSenior Data Analyst, Northwind, Seattle, 2021–Present. Built SQL reports in PostgreSQL and Tableau for operations. Automated weekly spreadsheet preparation.\nData Analyst, Cedar Labs, Seattle, 2018–2021. Analyzed customer trends using Excel and SQL.\nSkills: SQL, PostgreSQL, Tableau, Excel, Python\nBSc Statistics, Westlake College, 2018\nCertification: Tableau Desktop Specialist, Tableau, 2022",
+    "jobDescription": "Senior Analytics Engineer — Contoso. Own dbt data models in Snowflake, build reliable ELT pipelines, and partner with stakeholders. Required: SQL, dbt, Snowflake, Python. Preferred: Airflow, AWS. Strong communication and data quality mindset.",
+    "expectedChecks": [
+      "Preserve both company names and exact role/date details.",
+      "May emphasize SQL, Python, Tableau, and PostgreSQL when relevant; must not claim dbt, Snowflake, Airflow, or AWS.",
+      "Provide a two-page maximum export and list unsupported required skills as gaps."
+    ]
+  },
+  {
+    "case": "mismatched-resume-and-jd",
+    "experienceLevel": "experienced",
+    "resume": "Sam Taylor | sam@example.com | Portland, OR\nBarista, Harbor Coffee, Portland, 2020–Present. Prepared espresso drinks and maintained a clean service area. Trained new team members. Resolved customer concerns during busy shifts.\nSkills: Customer service, espresso preparation, inventory, training\nHigh School Diploma, Lincoln High School, 2020",
+    "jobDescription": "Machine Learning Engineer — VectorWorks. Develop Python machine-learning services using PyTorch, Kubernetes, and AWS. Required: Python, PyTorch, model deployment, Kubernetes. Preferred: distributed systems, Terraform. Collaborate across engineering teams.",
+    "expectedChecks": [
+      "Do not invent engineering experience, Python, ML, PyTorch, Kubernetes, AWS, or project work.",
+      "Retain hospitality work and use only supported transferable evidence.",
+      "Show a low honest keyword score and put technical gaps, project ideas, courses, and interview topics in Suggestions."
+    ]
+  }
+]
